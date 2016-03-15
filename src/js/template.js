@@ -3,6 +3,7 @@
 export function text(inputInfo) {
 	return `
 	<div class="text_div">
+	<div class="pikachu"></div>
 		<input type="${inputInfo.type}" id="${inputInfo.id}" placeholder="${inputInfo.label}">
 	</div>
 	`;
@@ -22,7 +23,7 @@ export function select(inputInfo) {
 	<div class="select_div">
 	  	<label for="${inputInfo.id}""><label>
   		<select id="${inputInfo.id}">
-  		<option>Select Language</option>
+  		<option>Select Language<option>
   			${opsOptions}
   		</select>
   	</div>
@@ -33,6 +34,7 @@ export function select(inputInfo) {
 export function textArea (inputInfo) {
 	return `
 	<div class="textArea_div">
+	<div class="pikachu"></div>
 		<textarea type="${inputInfo.type}" id="${inputInfo.id}" placeholder="${inputInfo.label}"></textarea>
 	</div>
 	`;

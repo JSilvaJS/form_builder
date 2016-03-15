@@ -3,9 +3,15 @@
 body {
   height: 695px;
   width: 605px;
-  background: url(http://hdwallpapersfit.com/wp-content/uploads/2015/03/sloth-wallpaper-space.jpg);
+  background: url(http://wallpoper.com/images/00/31/09/01/pokemon-pikachu_00310901.jpg);
+  background-position: 83% -5%;
 }
 
+.wrapper {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
 
 .app {
   display: inline-block;
@@ -44,7 +50,7 @@ body {
 .text_div {
   position: relative;
   padding: 10px 5px 10px 5px;
-  left: 170px;
+  // left: 170px;
 }
 
 .select_div{
@@ -56,7 +62,7 @@ body {
 .textArea_div {
   position: relative;
   padding: 10px 5px 10px 5px;
-  left: 170px;
+  left: 0px;
 }
 
 .footer {
@@ -70,65 +76,97 @@ body {
 #user-first-name {
   width: 450px;
   position: relative;
-  left: -140px;
+  left: 20px;
   border-radius: 3px;
   height: 30px;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-top-color: rgba(0, 0, 0, 0.2);
+  border-width: 2px;
+  padding-left: 35px;
 }
 
 #user-last-name {
   width: 450px;
   position: relative;
-  left: -140px;
+  left: 20px;
   border-radius: 3px;
   height: 30px;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-top-color: rgba(0, 0, 0, 0.2);
+  border-width: 2px;
+  padding-left: 35px;
 }
 
 #user-email {
   width: 450px;
   position: relative;
-  left: -140px;
+  left: 20px;
   border-radius: 3px;
   height: 30px;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-top-color: rgba(0, 0, 0, 0.2);
+  border-width: 2px;
+  padding-left: 35px;
 }
 
 #user-website {
   width: 450px;
   position: relative;
-  left: -140px;
+  left: 20px;
   border-radius: 3px;
   height: 30px;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-top-color: rgba(0, 0, 0, 0.2);
+  border-width: 2px;
+  padding-left: 35px;
 }
 
 #user-language {
-  width: 450px;
+  width: 490px;
   position: relative;
-  left: -140px;
+  left: -150px;
   border-radius: 3px;
   height: 30px;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-top-color: rgba(0, 0, 0, 0.2);
+  border-width: 2px;
+  padding-left: 35px;
 }
 
 #user-comment {
   width: 450px;
   position: relative;
-  left: -140px;
+  left: 20px;
   border-radius: 3px;
   height: 60px;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-top-color: rgba(0, 0, 0, 0.2);
+  border-width: 2px;
+  padding-left: 35px;
 }
 
 #user-mobile {
   width: 450px;
   position: relative;
-  left: -140px;
+  left: 20px;
   border-radius: 3px;
   height: 30px;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-top-color: rgba(0, 0, 0, 0.2);
+  border-width: 2px;
+  padding-left: 35px;
 }
 
 #user-phone {
   width: 450px;
   position: relative;
-  left: -140px;
+  left: 20px;
   border-radius: 3px;
   height: 30px;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-top-color: rgba(0, 0, 0, 0.2);
+  border-width: 2px;
+  padding-left: 35px;
 }
 
 .submit {
@@ -141,6 +179,24 @@ body {
   height: 30px;
   color: white;
   margin: 20px;
+  padding-left: 5px;
+}
+
+img {
+  width: 20px;
+  height: 100%;
+}
+
+.pikachu {
+  background: url(http://orig06.deviantart.net/8231/f/2012/105/9/5/pikachu_sprite_revamp_by_baconboy914-d4w7hvy.gif) no-repeat -15px -13px;
+  background-size: 48px 48px;
+  width: 21px;
+  height: 25px;
+  position: absolute;
+  top: 14px;
+  left: 35px;
+  opacity: 0.5;
+  z-index: 1;
 }
 
 
