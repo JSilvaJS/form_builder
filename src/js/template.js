@@ -22,6 +22,7 @@ export function select(inputInfo) {
 	<div class="select_div">
 	  	<label for="${inputInfo.id}""><label>
   		<select id="${inputInfo.id}">
+  		<option>Select Language</option>
   			${opsOptions}
   		</select>
   	</div>
